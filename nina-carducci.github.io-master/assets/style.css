@@ -105,8 +105,12 @@ body {
   background-color: #beb45a;
   border-radius: 0;
 }
+
 .nav-pills .nav-link {
   color: #000;
+}
+.nav-link {
+  cursor: pointer;
 }
 .item-column {
   position: relative;
