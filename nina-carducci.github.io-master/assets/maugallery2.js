@@ -10,7 +10,7 @@
     return this.each(function () {
       $.fn.mauGallery.methods.createRowWrapper($(this));
 
-      // Si l'option lightBox est activée, créez la lightbox
+      // Si l'option lightBox est activée, créer la lightbox
       if (options.lightBox) {
         $.fn.mauGallery.methods.createLightBox(
           $(this),
@@ -19,7 +19,7 @@
         );
       }
 
-      // Attachez les écouteurs d'événements
+      // Attacher les écouteurs d'événements
       $.fn.mauGallery.listeners(options);
 
       // Pour chaque élément .gallery-item
