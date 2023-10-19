@@ -42,6 +42,11 @@ body {
   width: 20px;
 }
 
+.w100 {
+  width: 100%;
+  height: auto !important;
+}
+
 #about {
   display: flex;
   background-color: #f6d2b8;
@@ -70,6 +75,7 @@ body {
 .picture img {
   width: 100%;
 }
+
 #about-me {
   flex: 2;
 }
