@@ -47,6 +47,11 @@ body {
   height: auto !important;
 }
 
+.carousel-inner img {
+  max-width: 100%;
+  height: auto;
+}
+
 #about {
   display: flex;
   background-color: #f6d2b8;
@@ -73,7 +78,8 @@ body {
 }
 
 .picture img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 #about-me {
@@ -318,7 +324,7 @@ input[type="submit"] {
     margin-top: 1em;
   }
   .picture.right::before {
-    width: 100%;
+    width: 50%;
     height: 30%;
     position: absolute;
     bottom: 0;
@@ -363,4 +369,9 @@ input[type="submit"] {
   .picture {
     width: 80%;
   }
+}
+
+.contact-nina {
+  z-index: 1000;
+  width: 50%;
 }
